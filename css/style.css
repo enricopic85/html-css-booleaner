@@ -8,6 +8,13 @@
     width: 1200px;
     margin: auto;
 }
+
+.underline{
+    background-color: yellow;
+}
+
+/* fine classi utility */
+
 header{
     width: 100%;
     height: 150px;
@@ -19,6 +26,7 @@ header{
     height: 50px;
     width: 150px;
     margin-top: 100px;
+    margin-left: 10px;
     
 }
 main > h1{
@@ -37,18 +45,16 @@ a{
 .tim{
     margin-top: 15px;
 }
-.underline{
-    background-color: yellow;
-}
+
 ul{
     margin-left: 13px;
 }
 thead{
-    background-color: blue;
+    background-color: rgb(78, 78, 226);
     color: white;
 }
 .row-color{
-    background-color: #7676e3;
+    background-color: #3577db;
    
 }
 .main-text{
@@ -59,4 +65,28 @@ table{
 }
 thead{
     text-align: left;
+}
+h4{
+    color: grey;
+}
+.square1{
+    width: 200px;
+    height: 150px;
+    background: url(../img/monitor.jpg) no-repeat center;
+    border: 1px solid black;
+    margin-top: 15px;
+    background-size: cover;
+}
+.square2{
+    width: 200px;
+    height: 150px;
+    background: url(../img/graph.jpg) no-repeat center;
+    border: 1px solid black;
+    margin-top: 15px;
+    background-size: cover;
+}
+h3{
+    color: white;
+    margin-left: 5px;
+    margin-top: 10px;
 }
