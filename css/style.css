@@ -40,9 +40,23 @@ a{
 .underline{
     background-color: yellow;
 }
-.testo{
-    margin-left: 0;
-}
 ul{
     margin-left: 13px;
+}
+thead{
+    background-color: blue;
+    color: white;
+}
+.row-color{
+    background-color: #7676e3;
+   
+}
+.main-text{
+    width: 50%;
+}
+table{
+    border-spacing:0;
+}
+thead{
+    text-align: left;
 }
