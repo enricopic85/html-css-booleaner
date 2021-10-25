@@ -69,22 +69,22 @@ thead{
 h4{
     color: grey;
 }
-.square1{
+.square1,.square2{
     width: 200px;
     height: 150px;
-    background: url(../img/monitor.jpg) no-repeat center;
     border: 1px solid black;
     margin-top: 15px;
+}
+.square1{
+    background: url(../img/monitor.jpg) no-repeat center;
     background-size: cover;
 }
 .square2{
-    width: 200px;
-    height: 150px;
+    
     background: url(../img/graph.jpg) no-repeat center;
-    border: 1px solid black;
-    margin-top: 15px;
     background-size: cover;
 }
+
 h3{
     color: white;
     margin-left: 5px;
